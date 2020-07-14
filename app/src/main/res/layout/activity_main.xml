@@ -11,7 +11,7 @@
             android:id="@+id/tv_ip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginSTATIC="6dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="10dp"
             android:text="@string/ip_address" />
 
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv_ip"
-            android:layout_marginSTATIC="6dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="10dp"
             android:text="@string/setting_notice" />
 
@@ -31,7 +31,6 @@
             android:layout_below="@+id/tv_notice"
             android:layout_marginTop="10dp"
             android:text="@string/dhcp_ip" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +65,9 @@
                     android:background="@drawable/_r_border_1dp"
                     android:gravity="center"
                     android:inputType="number"
-                    android:maxLength="3" />
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/ip_address_2"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,6 +82,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/ip_address_3"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -98,6 +100,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/ip_address_4"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -115,6 +118,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/net_mask_1"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -138,6 +142,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/net_mask_2"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -155,6 +160,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/net_mask_3"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -172,6 +178,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/net_mask_4"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -189,6 +196,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/gate_way_1"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -212,6 +220,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/gate_way_2"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -229,6 +238,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/gate_way_3"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -246,6 +256,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/gate_way_4"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -263,6 +274,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_one_1"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -286,6 +298,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_one_2"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -303,6 +316,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_one_3"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -320,6 +334,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_one_4"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -337,6 +352,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_two_1"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -360,6 +376,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_two_2"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -377,6 +394,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_two_3"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
@@ -394,6 +412,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:background="@drawable/_r_border_1dp"
+                    android:nextFocusDown="@+id/dns_two_4"
                     android:gravity="center"
                     android:inputType="number"
                     android:maxLength="3" />
