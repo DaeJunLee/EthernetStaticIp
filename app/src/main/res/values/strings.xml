@@ -4,4 +4,6 @@
     <string name="dhcp_ip">DHCP IP</string>
     <string name="static_ip">STATIC IP</string>
     <string name="setting_notice">设置IP地址，设置完后将重启系统</string>
+
+    <string name="address_format">%s.%s.%s.%s</string>
 </resources>
